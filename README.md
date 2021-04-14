@@ -6,6 +6,10 @@ Tips and tricks that I come across and need to remember for exploitation.
 - Setup a dedicated _pwn_ box where you write your exploits. 
   - This is because Python is toxic and you need a stable env for doing this stuff.
 
+- When using python3 make sure everything is defined as a _byte string_
+
+- After creating a payload, remove any null-bytes if they exist and adjust padding as necessary
+
 ## Misc -- Miscellaneous tips about exploitation
 
 - When testing code redirection/exectution throw in a SIGTRAP `\xcc`
