@@ -28,3 +28,5 @@ Tips and tricks that I come across and need to remember for exploitation.
     ```
   - This builds the addres `0x400abd` which has a newline byte in it and using an instruction such as `mov eax` would not work either due to `mov eax` introducing null bytes.
 
+- Keep in mind potential code segments that could be used to leak addresses. (_example in pwnable.tw/start_)
+
