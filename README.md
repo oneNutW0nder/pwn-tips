@@ -30,3 +30,5 @@ Tips and tricks that I come across and need to remember for exploitation.
 
 - Keep in mind potential code segments that could be used to leak addresses. (_example in pwnable.tw/start_)
 
+- Leaking libc addresses with ROP:
+  - https://book.hacktricks.xyz/exploiting/linux-exploiting-basic-esp/rop-leaking-libc-address
