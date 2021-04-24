@@ -32,3 +32,6 @@ Tips and tricks that I come across and need to remember for exploitation.
 
 - Leaking libc addresses with ROP:
   - https://book.hacktricks.xyz/exploiting/linux-exploiting-basic-esp/rop-leaking-libc-address
+
+- When sending exploits remotely, find addresses/techniques that make it as similar to local as possible.
+  - See the _controller_ challenge from HTB CTF 2021 where we ret to main instead of __libc_start_main
